@@ -16,13 +16,15 @@ Neural Networks: Capturing complex, nonlinear relationships.
 Clustering: Identifying natural groupings within gel property data.
 Model Evaluation: Comparing model performance using appropriate metrics.
 
-Technologies Used
+Specific technologies/competencies targeted in this project
 - Python
 - Jupyter Notebook
-- Pandas, NumPy
-- Scikit-learn
-- TensorFlow/Keras
-- Matplotlib, Seaborn
+- Machine Learning Libraries such as scikit-learn, TensorFlow, Keras, and PyTorch
+- Statistical Analysis for understanding of statistical methods for data analysis and model evaluation
+- Data Preprocessing - data cleaning, normalization, and transformation techniques
+- Feature Engineering to identify and create relevant features for modelling
+- Model Training and Tuning - training algorithms, hyperparameter tuning, and cross-validation methods
+- Model Evaluation for understanding performance metrics and model validation techniques
 
 How to Use
 1. Clone the repository:
