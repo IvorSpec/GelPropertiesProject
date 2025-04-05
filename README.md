@@ -2,7 +2,7 @@ Gel Properties Analysis Project
 
 Overview
 This project explores the relationship between nanoscale and mesoscale properties of gels and their rheological behavior using data science techniques. 
-By applying multiple machine learning models, including multilinear regression, neural networks, and clustering, this analysis aims to uncover patterns and predictive relationships in simulated gel data.
+By applying multiple machine learning models, including multilinear regression, neural networks, and clustering, this analysis aims to uncover patterns and predictive relationships in simulated gel data. A brief background to the study is also presented in a separate file. 
 
 Objectives
 - Analyze the impact of nanoscale and mesoscale structural features on gel rheology.
