@@ -1,50 +1,68 @@
-Gel Properties Analysis Project
+Gel Properties Analysis with Data Science
 
 Overview
-This project explores the relationship between nanoscale and mesoscale properties of gels and their rheological behavior using data science techniques. 
-By applying multiple machine learning models, including multilinear regression, neural networks, and clustering, this analysis aims to uncover patterns and predictive relationships in simulated gel data. A brief background to the study is also presented in a separate file. 
+
+This project investigates how nanoscale and mesoscale protein structure influences the rheological behavior of food gels.  
+
+Using synthetic data and a range of machine learning models — including multilinear regression, neural networks, and clustering — it simulates and predicts how structural parameters relate to mechanical performance.  
+
+The project demonstrates how data science can help uncover structure–function relationships in food material science, particularly relevant to alternative proteins and precision-fermented dairy systems
+
 
 Objectives
-- Analyze the impact of nanoscale and mesoscale structural features on gel rheology.
-- Build and compare different models to predict rheological properties.
 
-Methods
-Data Simulation: Generation of synthetic data representing gel structures and their mechanical properties.
-Exploratory Data Analysis (EDA): Visualizing trends and distributions.
-Multilinear Regression: Understanding linear dependencies between variables.
-Neural Networks: Capturing complex, nonlinear relationships.
-Clustering: Identifying natural groupings within gel property data.
-Model Evaluation: Comparing model performance using appropriate metrics.
+- Simulate structural and rheological data representing gel systems
+- Analyze the impact of nanoscale and mesoscale features on gel rheology
+- Build and compare models to predict mechanical properties
+- Identify natural clusters of gels based on structure and behavior
 
-Specific technologies/competencies targeted in this project
-- Python
-- Jupyter Notebook
-- Machine Learning Libraries such as scikit-learn, TensorFlow, Keras, and PyTorch
-- Statistical Analysis for understanding of statistical methods for data analysis and model evaluation
-- Data Preprocessing - data cleaning, normalization, and transformation techniques
-- Feature Engineering to identify and create relevant features for modelling
-- Model Training and Tuning - training algorithms, hyperparameter tuning, and cross-validation methods
-- Model Evaluation for understanding performance metrics and model validation techniques
+
+Methods Used
+
+| Technique                  | Purpose                                           |
+|----------------------------|---------------------------------------------------|
+| **Synthetic Data Generation** | Simulate protein gel structures and responses     |
+| **Exploratory Data Analysis (EDA)** | Visualize distributions, correlations, and trends |
+| **Multilinear Regression** | Model linear relationships between variables     |
+| **Neural Networks**        | Capture nonlinear, complex structure–function mappings |
+| **Clustering (e.g. K-Means)** | Group gels with similar properties               |
+| **Model Evaluation**       | Compare accuracy using MAE, RMSE, R²              |
+
+
+Technologies & Tools
+
+- Python (Jupyter Notebook)
+- `pandas`, `NumPy`, `matplotlib`, `seaborn`
+- `scikit-learn` for regression, clustering
+- `TensorFlow` / `Keras` or `PyTorch` for neural networks
+- Feature engineering, scaling, and cross-validation methods
+
 
 How to Use
+
 1. Clone the repository:
-   ```sh
+   ```bash
    git clone https://github.com/IvorSpec/GelPropertiesProject.git
-   ```
-2. Open the Jupyter Notebook:
-   ```sh
-   jupyter notebook "Project - gel properties.ipynb"
-   ```
-3. Run the notebook cells to explore the analysis and results.
+
+Launch the main notebook:
+jupyter notebook "Project - gel properties.ipynb"
+
 
 Future Work
-- Expand dataset with more samples.
-- Improve neural network architecture for better predictions for storage and loss moduli.
-- Perform a thorough literature review to compare with my results, focusing on the characteristics of gels and the interactions that form them.
+Expand the synthetic dataset with greater noise and heterogeneity
 
-Contact
-If you have any questions or feedback, feel free to reach out via GitHub or LinkedIn.
+Improve neural network architectures for predicting G’ and G’’
 
----
-This project serves as a demonstration of my ability to apply data science techniques in a scientific context. I welcome any collaboration or discussions on improving the approach!
+Compare simulated results to published literature on food gels and protein network formation
 
+Explore feature transfer from real datasets in alt-protein or dairy research
+
+Author
+Ivor Spector
+MSc Food Technology (Wageningen University & Research) | Food Scientist & Data Science Trainee
+
+Collaborate or Connect
+Have feedback, ideas, or relevant data to test?
+I'm open to collaborations, informal R&D consulting, or PhD discussions.
+
+Reach out via LinkedIn (https://www.linkedin.com/in/ivor-spector/) or GitHub.
