@@ -4,7 +4,7 @@ Overview
 
 This project investigates how nanoscale and mesoscale protein structure influences the rheological behavior of food gels.  
 
-Using synthetic data and a range of machine learning models — including multilinear regression, neural networks, and clustering — it simulates and predicts how structural parameters relate to mechanical performance.  
+Using synthetic data and a range of machine learning models, including multilinear regression, neural networks, and clustering, it simulates and predicts how structural parameters relate to mechanical performance.  
 
 The project demonstrates how data science can help uncover structure–function relationships in food material science, particularly relevant to alternative proteins and precision-fermented dairy systems
 
